@@ -69,7 +69,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.example"
+                groupId = "com.github.jairot-prog"
                 artifactId = "miliocheckinsdk"
                 version = "1.0"
             }
